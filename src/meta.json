@@ -8,21 +8,21 @@
                 }
             },
             "assets": {
-                "65c18ce1471ba478fdc1e9f2": {
-                    "name": "305soft-high-resolution-color-logo.png",
-                    "originalname": "305soft-high-resolution-color-logo.png",
+                "65b81f5cbbc6b143d1d203c8": {
                     "externalStorageType": "GCS",
-                    "externalName": "users/65aea321bdfbccb613c6dca9/projects/65c18ce1471ba478fdc1e9ef/assets/65c18ce1471ba478fdc1e9f2",
-                    "backendURI": "/project/65c18ce1471ba478fdc1e9ef/getasset/65c18ce1471ba478fdc1e9f2",
+                    "_id": "65b81f5cbbc6b143d1d203c8",
                     "size": "24123",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "_id": "65c18ce1471ba478fdc1e9f2",
+                    "originalname": "305soft-high-resolution-color-logo.png",
+                    "backendURI": "/project/65b81a442b099480daa46fa0/getasset/65b81f5cbbc6b143d1d203c8",
+                    "name": "305soft-high-resolution-color-logo.png",
+                    "externalName": "users/65aea321bdfbccb613c6dca9/projects/65b81a442b099480daa46fa0/assets/65b81f5cbbc6b143d1d203c8",
                     "createdAt": "2024-01-29T21:57:48.406Z",
                     "updatedAt": "2024-01-29T21:57:48.406Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea321bdfbccb613c6dca9/projects/65c18ce1471ba478fdc1e9ef/assets/65c18ce1471ba478fdc1e9f2?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240206%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240206T203957Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=0f52a5fce95784d67f642d2ee79f6b096109b0ccdce6d486c99b0f4c34ad6b66b94c92c81f59643cfb9bd7f4c0518efd83215b5dcac68c39254b70dc4560e9872ae50887e61c697e246383e0f86356f58d29b21ccf306dcb05733fca6862e566f3b0a1d176aa76cdf0921c82672dc3ee22d5cdde1a1582eeac31ef62d5168e5221e937344de3a4d78c00d8b21a796dc176fa66f33e4d49a20a4a7bbe76d1ff9f8d9ff41b6e62dfcdd8805fc689ba43cd80ac48ceb720307030d4795581aa34743861483ae06128decc98cd33f6333afd7769e90712963c12963caacb57976f138efbb8118a4e20e2b716557cc9eeb5084ef800b6794fd721f16dba75d8d9dd61",
-                    "signedUrlExpirationTime": 1707424797379
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea321bdfbccb613c6dca9/projects/65b81a442b099480daa46fa0/assets/65b81f5cbbc6b143d1d203c8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240206%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240206T185534Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=40749cc83cc4af75219ec7f242a1bdae45d3617f5e249f93eaeb52049a26fb03cd828f42ec87a4198120349c8312c59de15895c7e291348cf6241f6d2e74889e4ea5d285d5d0525d1713256811d3c5b778e9bdb86a829e05febe28b0a90379b0c7a93426fab4e51075f42f4e51138bd4996812ff726c7fa79c0e1561127dc791cf6dd8ac069a1ed3523c13772fc1f95dfe492eab3061efd3d5030c1613349f13764875b5cc42f58816d26fbcb4dc67df15b47c2eeff3c650b45eec711fe06893388dc9e9a3cd805bd4be6345b6df17f8c7ba075923c407d463aa243b22e7df0580e3d4e01bb4366eb49563cf89f9e9163779aaae30abab8a0c2280795398e9bf",
+                    "signedUrlExpirationTime": 1707418534429
                 }
             },
             "backendUpgradeVersion": 24,
@@ -35,18 +35,19 @@
                         ],
                         "ios": [
                             {
-                                "name": "NSCameraUsageDescription",
-                                "label": "Camera",
-                                "hint": "Describe why your app uses the camera."
-                            },
-                            {
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     },
                     "enabledFeatures": {
+                        "location": true,
                         "iap": false
                     }
                 },
@@ -88,10 +89,10 @@
                     }
                 ]
             },
-            "figmaComponents": null,
+            "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Matt\u2019s Camera App",
+            "projectName": "Matt\u2019s Camera App Dev",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -103,10 +104,10 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "",
-                "firebaseDatabaseURL": "",
-                "stripePublishableKeyTest": "",
-                "stripePublishableKeyLive": "",
+                "firebaseAPIKey": null,
+                "firebaseDatabaseURL": null,
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
@@ -115,17 +116,17 @@
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
                 "pushNotificationGeolocationEnabled": null,
-                "yandexAPIKey": "",
-                "imageRecognizerServerURL": "",
-                "imageRecognizerSubscriptionKey": "",
-                "cloudName": "",
-                "cloudinaryAPIKey": "",
-                "cloudinaryAPISecret": "",
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -152,10 +153,10 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "",
-                "firebaseDatabaseURL": "",
-                "stripePublishableKeyTest": "",
-                "stripePublishableKeyLive": "",
+                "firebaseAPIKey": null,
+                "firebaseDatabaseURL": null,
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
@@ -164,17 +165,17 @@
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
                 "pushNotificationGeolocationEnabled": null,
-                "yandexAPIKey": "",
-                "imageRecognizerServerURL": "",
-                "imageRecognizerSubscriptionKey": "",
-                "cloudName": "",
-                "cloudinaryAPIKey": "",
-                "cloudinaryAPISecret": "",
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -199,7 +200,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "2",
             "totalStar": "0",
             "starAction": "star",
             "variables": {},
